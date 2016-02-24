@@ -12,6 +12,7 @@ cd to wherever you want to host your application
 ```
 > wget https://github.com/Azert-Software/shrink/archive/master.zip
 > unzip master.zip
+> rm -f master.zip
 > cd shrink-master
 > npm install
 ```
