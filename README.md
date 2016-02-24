@@ -7,3 +7,17 @@ As it is built using node it can be ran on cheap commodity hardware and using sq
 To install follow the below steps:
 
 I owe you, some steps and the rest of this readme.
+
+cd to wherever you want to host your application
+```
+> wget https://github.com/Azert-Software/shrink/archive/master.zip
+> unzip master.zip
+> cd shrink-master
+> npm install
+```
+The application is now installed and ready for use
+
+```
+npm start
+```
+
