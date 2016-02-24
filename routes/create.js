@@ -17,7 +17,7 @@ router.post('/create', function(req, res) {
            hits:0,
            dateAdded:today
          }
-       ).success(function(){
+       ).then(function(){
          res.render("home",{
            providedUrl:url,
            short:"http://" + req.headers.host + "/" + shortUrl
